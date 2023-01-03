@@ -14,8 +14,8 @@ boto3=1.24.82
     e.vpc
 # how to run the Project on docker-env
 
-# 0. Clone the source code from github
-
+# Clone the source code from github
+* build the docker image 
 ```
 docker build -t roi:latest . 
 ```
@@ -25,6 +25,7 @@ docker build -t roi:latest .
 docker run -p 9999:9999 roi:latest
 
 ```
+* access the ROI using 
 ```
 http://127.0.0.1:9999
 ```
